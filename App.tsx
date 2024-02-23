@@ -3,9 +3,13 @@ import {NavigationContainer} from '@react-navigation/native';
 // import TabNavigator from './src/Navigation/TabNavigator';
 
 import Charts from './src/SchoolInnerPieChart'
+import { View } from 'react-native';
 function App(): JSX.Element {
   return (
-   <Charts />
+    <View>
+      <Charts />
+
+    </View>
   );
 }
 
